@@ -7,6 +7,6 @@ fn fib(n: u32) -> u32 {
 }
 
 fn main() {
-    let n = 20;
+    let n: u32 = 1;
     println!("fib({n}) = {}", fib(n));
 }
